@@ -1,0 +1,33 @@
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 45%;
+  height: 400px;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#preview {
+  width: 45%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  overflow-y: scroll;
+  text-align: left;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
